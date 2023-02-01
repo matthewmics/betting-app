@@ -1,0 +1,22 @@
+.header {
+    border-bottom: 1px solid var(--separator-color);
+    display: flex;
+    padding: 1.5rem 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background-color: var(--bg-color);;
+}
+
+.header .main {
+    display: flex;
+}
+
+.header .main *:not(i){
+    font-weight: 1000;
+    font-style: italic;
+}
+
+.header .main .logo {
+    font-size: 1.2rem;
+}

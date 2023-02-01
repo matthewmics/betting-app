@@ -1,0 +1,7 @@
+.side-bar {
+    border-right: 1px solid var(--separator-color);
+    width: 240px;
+    top: var(--header-height);    
+    height: calc(100vh - var(--header-height));
+    position: fixed;
+}
